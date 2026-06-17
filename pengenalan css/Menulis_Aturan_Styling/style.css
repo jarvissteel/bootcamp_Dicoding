@@ -1,0 +1,32 @@
+h1{
+    color:green;
+}/*artinya semua h1 berwwarna hijau*/
+
+
+/*artinya semua p kecil dan sans-serif*/
+p{
+    font-size: small;
+    font-family: Arial, sans-serif;
+}
+
+
+/*STRUKTUR CSS
+ada 2: SELECTOR dan DECLARATION
+selector memilih elemen html
+declaration perintah styling*/
+
+h1 {  /*SELECTOR*/
+  color:/*property*/ green; /*value*/  /*DECLARATION*/
+}
+
+/*declaration lebih dari 1*/
+p {
+  font-size: 20px;
+  color: blue;
+  font-family: Arial;
+}
+
+/*css ga peduli spasi tapi hati hati satuan jaangan di spasi */
+h1 {
+  margin: 2em;
+}
