@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengirim Data Formulir</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="fullname">Nama</label>
+            <input id="fullname" name="fullname" required />
+        </div>
+        
+        <div>
+            <label for="checkIn">Tanggal Check-In</label>
+            <input type="date" id="checkIn" name="checkIn" required />
+        </div>
+
+        <div>
+            <label for="checkOut">Tanggal Check-Out</label>
+            <input type="date" id="checkOut" name="checkOut" required />
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+<!--Note
+type untuk isi tipe
+id untuk mengidentifikasi elemen 
+<form> → pembungkus
+method="POST" → cara kirim data
+name="email" → nama data
+button submit → tombol kirim
+
+post ga keliatan di url | Get keliatan di url ga cocok untuk pw     
+
+ada 3 tipe ngirim daata formulir 
+
+method GET
+<form method="GET" action="https://example.com/">
+    
+method POST
+<form method="POST" action="https://example.com/">
+    
+kalau langsung form action ke tujuan
+<form action="https://example.com/jalur/ke/alamat/destinasi">
+
+browser akan otomatis pakai GET     -->
