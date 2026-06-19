@@ -1,0 +1,42 @@
+/* line height */
+.ln2{/*line-height: 2x font */
+    line-height: 2;
+}
+
+.ln200{/*200% dari ukuran font*/
+    line-height: 200%;
+}
+
+.ln2em{ /*langsung tentuiin ukuran font*/
+    line-height: 2em;
+}
+
+p{ /*untuk paragraf menjorong ke kanan*/
+    text-indent: 30px;
+    border: 1px solid black;
+}
+
+main{
+    width:80%;
+    margin: 0 auto;
+
+    border: 1px solid black;
+}
+
+.tl-left{
+    text-align: left;
+}
+
+.tl-center{
+    text-align: center;
+}
+
+.tl-right{
+    text-align: right;
+}
+
+.tl-justify{
+    text-align: justify;
+}
+
+
