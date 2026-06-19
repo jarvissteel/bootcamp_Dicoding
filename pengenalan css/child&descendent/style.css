@@ -1,0 +1,7 @@
+.child > p{
+    background-color: yellowgreen;
+}
+
+.descendant p{
+    background-color: aqua;
+}
