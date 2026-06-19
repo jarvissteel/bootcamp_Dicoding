@@ -1,0 +1,15 @@
+a:link{ /*terjadi ketika belum dikunjungi*/
+    color:blueviolet;
+}
+
+a:visited{ /*terjadi ketika sudah dikunjungi*/
+    color:blue;
+}
+
+a:hover{/*ketika diarahkan */
+    color:greenyellow;
+}
+
+a:active{/*ketika di pencet*/
+    color:black
+}
