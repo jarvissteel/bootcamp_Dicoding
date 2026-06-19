@@ -1,0 +1,41 @@
+#limited{ /* id pake pager# dan gabisa dipake berulang */
+    background-color: lightblue;
+}
+
+ul{
+    font-size:18px;
+}
+
+a[href^='#']{ /* semua atribut DIAWALI # */
+    background-color: red;
+}
+
+a[href*='contoh']{ /*atribut MENGANDUNG SESUATU (contoh) */
+    background-color: silver;
+}
+
+a[href*='insensitive' i]{/*atribut MENGANDUNG SESUATU (contoh) tapi gapeduli besar/kecil */
+    color: cyan;
+
+}
+
+a[href$='.org']{ /* semua atribut DIAKHIRI .org */
+    color: green;
+}
+
+*{
+    color: greenyellow
+}
+
+*[lang^='en']{
+    font-style:italic;
+}
+
+*.warning{
+    color:red;
+}
+
+*#content{
+    border: 1px solid blue;
+    padding: 20px;
+}
