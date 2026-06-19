@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+
+/*pake font sendiri*/
+@font-face{
+    font-family: "MyFont";
+    src: url("myfont.ttf");
+}
+
+p{
+    font-family: "MyFont";
+}
+
+h1{
+    font-size: 1.5em; /*gaboleh dispapsi sama satuannya */
+}
