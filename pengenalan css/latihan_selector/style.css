@@ -1,0 +1,20 @@
+span{
+    color: red;
+} /*selector tiap elemen html dengan nama span*/
+
+.red{
+    color:red;
+}
+
+.skyblue-bg{
+    background-color: skyblue;
+}
+
+.fancy{
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+/*selector tiap class html */
+
+/*kalau elemen ga pake titik selectornya */
